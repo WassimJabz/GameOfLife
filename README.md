@@ -6,7 +6,7 @@
  
   <img src="Thumbnail.png" align="center"><br/><br/>
   
-  The rules of the game are simple: A grid (called the "world" of the game) is randomly generated with the cells being either alive or dead. Based on this initial state, the world   can then evoluate through multiple generations, with each cell changing based on the state of its adjacent cells, also called neighbors. The rules are the following: <br/><br/>
+  The rules of the game are simple: A grid (called the "world") is randomly generated with the cells being either alive or dead. Based on this initial state, the world can then evoluate through multiple generations, with each cell changing based on the state of its adjacent cells, also called neighbors. The rules are the following: <br/><br/>
   1- Any living cell with fewer than two live neighbors dies, as if caused by under population<br/>
   2- Any living cell with two or three live neighbors lives on to the next generation<br/>
   3- Any living cell with more than three live neighbors dies, as if by overpopulation<br/>
