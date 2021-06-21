@@ -11,7 +11,7 @@ public class Graphics {
 
     public Graphics(double lifeProbability, int size){
         game = new Game(lifeProbability, size);
-        gameFrame = new JFrame();
+        gameFrame = new JFrame("Game of life");
         boardPanel = new BoardPanel();
         gameFrame.add(boardPanel, BorderLayout.CENTER);
         gameFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
